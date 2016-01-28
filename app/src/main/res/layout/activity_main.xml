@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -19,38 +23,38 @@
         android:layout_gravity="center"
         android:text="My Nanodegree Apps!" />
     <Button
-        android:text="SPOTIFY STREAMER"
+        android:text="@string/spotify"
         android:onClick="spotifyBtn"
         style="@style/ButtonStyle"
         />
     <Button
 
-        android:text="SCORES APP"
+        android:text="@string/scores"
         android:onClick="scoresBtn"
         style="@style/ButtonStyle"
         />
     <Button
 
-        android:text="LIBRARY APP"
+        android:text="@string/library"
         android:onClick="libraryBtn"
         style="@style/ButtonStyle"
         />
     <Button
 
-        android:text="BUILD IT BIGGER"
+        android:text="@string/build_it"
         android:onClick="buildItBtn"
         style="@style/ButtonStyle"
         />
     <Button
 
-        android:text="XYZ READER"
+        android:text="@string/xyz"
         android:onClick="xyzBtn"
         style="@style/ButtonStyle"
         />
 
     <Button
 
-        android:text="CAPSTONE:MY OWN APP"
+        android:text="@string/capstone"
         android:onClick="capstoneBtn"
         style="@style/ButtonStyle"
         android:textColor="#FFFFFF"
@@ -58,3 +62,4 @@
         />
 
 </LinearLayout>
+</ScrollView>
